@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Under Water Design | Sifat Ahmed</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #particles{
+            height: calc(100vh - 4px);
+            position: relative;
+        }
+        #particles::after{
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            background: #82dbd859;
+        }
+    </style>
+    <link rel="stylesheet" href="animation.css">
+</head>
+<body style="background: #82DBD8;">
+    <!-- sea start -->
+    <div id="sea">
+        <!-- particles/feed start -->
+        <div id="particles">
+        </div>
+        <!-- particles/feed end -->
+    </div>
+    <!-- sea end -->
+</body>
+</html>
